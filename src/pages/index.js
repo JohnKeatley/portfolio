@@ -1,5 +1,13 @@
-import React from "react"
+import React from "react";
+import { withTrans } from '../i18n/withTrans'
 
-export default function Home() {
-  return <h1>Hello There!</h1>
+function Home({ t, i18n}) {
+  return (
+    <>
+        <h1>{t('home.welcomeText')}</h1>
+        <h2 id="about-me">{t('home.aboutMeText')}</h2>
+    </>
+  )
 }
+
+export default withTrans(Home);

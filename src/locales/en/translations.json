@@ -1,0 +1,7 @@
+{
+    "home": {
+        "welcomeText": "Welcome to my site",
+        "aboutMeText": "Sobre",
+        "footerText": "Built with Gatsby2"
+    }
+}
